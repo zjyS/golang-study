@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option go_package = "/protocol";
+
+message Album {
+  optional string id = 1;
+  optional string title = 2;
+  optional string artist = 3;
+  optional double price = 4;
+}
